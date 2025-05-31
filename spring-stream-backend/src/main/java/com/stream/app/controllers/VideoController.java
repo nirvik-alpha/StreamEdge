@@ -18,6 +18,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v1/videos")
+@CrossOrigin("*")
 public class VideoController {
 
     private VideoService videoService;
